@@ -4,59 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/pasatiempos"
+    android:background="@color/purple_200"
     tools:context=".MainActivity4">
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#EDE0B8"
-        android:text="PASATIEMPOS"
-        android:textColor="#0C0000"
-        android:textSize="34sp"
+        android:text="TextView"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.118" />
+        app:layout_constraintVertical_bias="0.373" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/generar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#114216"
-        android:text="REGRESAR "
-        android:textColor="#FFFFFF"
-        android:textSize="24sp"
+        android:background="#C33838"
+        android:text="GENERAR "
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.818" />
+        app:layout_constraintVertical_bias="0.519" />
 
     <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#8F6868"
-        android:text="- VIDEO JUEGOS "
-        android:textColor="#4C0909"
-        android:textSize="24sp"
+        android:id="@+id/textView6"
+        android:layout_width="384dp"
+        android:layout_height="73dp"
+        android:text="GENERADOR DE NUMEROS ALEATORIOS"
+        android:textDirection="anyRtl"
+        android:textSize="33sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.344" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#648C36"
-        android:text="- CAMINAR "
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="224dp"
-        tools:layout_editor_absoluteY="348dp" />
+        app:layout_constraintVertical_bias="0.104" />
 </android.support.constraint.ConstraintLayout>
